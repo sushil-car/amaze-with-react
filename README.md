@@ -1,4 +1,13 @@
 #Amaze With React
 
-Just run command 'npm start' on command line
+FoLloW bEloW cOmMaNds tO gEt staRtEd..
 
+npm install
+
+npm start
+
+oPEN http://localhost:8082/
+
+Done ;)
+
+So EaSY
