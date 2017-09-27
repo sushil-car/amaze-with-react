@@ -14,9 +14,12 @@
   },
   "keywords": [
     "react",
-    "js"
+    "js",
+    "redux",
+    "react-redux",
+    "react-thunk"
   ],
-  "author": "sushil adokar",
+  "author": "sushil ADOKAR  <sushiladokar@gmail.com> (https://github.com/sushiladokar)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sushiladokar/amaze-with-react/issues"
@@ -28,7 +31,10 @@
     "react-addons-css-transition-group": "^15.6.0",
     "react-addons-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
     "reactstrap": "^4.8.0",
+    "redux": "^3.7.2",
     "style-loader": "^0.18.2"
   },
   "devDependencies": {
@@ -39,6 +45,12 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "muicss": "^0.9.24",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "volleyball": "^1.4.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.5.0"
   }

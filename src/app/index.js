@@ -1,8 +1,15 @@
-/* 
-    ./client/index.js
-*/
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App.jsx';
+import {render} from 'react-dom';
+import {Provider} from 'react-redux';
+import App from './containers/App.jsx';
+import store from "./store.js";
 
-ReactDOM.render(<App />, document.getElementById('react-root'));
+render(
+    <Provider store={store}>
+    <App></App>
+</Provider>, document.getElementById('react-root'));
+
+
+
+
+

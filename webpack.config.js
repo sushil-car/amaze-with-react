@@ -27,19 +27,26 @@ var config = {
           use: {
             loader: 'babel-loader',
             options: {
-              presets: ["es2015", "react"]
+              presets: ["es2015", "react"],
+              plugins: [
+                'transform-class-properties',
+                'transform-object-rest-spread'
+              ]
             }
           }
         },
         {
-          test: /\.css$/,
-          loader: 'style-loader!css-loader'
+          test: [/\.css$/, /\.less$/],
+          loader: 'style-loader!css-loader!less-loader'
         }
       ]
     },
     plugins: [
       new webpack.NoEmitOnErrorsPlugin(),
-      HtmlWebpackPluginConfig
+      HtmlWebpackPluginConfig,
+      new webpack.LoaderOptionsPlugin({
+        debug: true
+      })
     ]
 };
 
